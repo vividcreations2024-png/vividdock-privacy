@@ -1,0 +1,225 @@
+VividDock Privacy Policy
+
+**Effective Date:** November 21, 2026  
+**Last Updated:** November 21, 2026
+
+VividDock is developed by **Vivid Creations Technologies**.
+
+This Privacy Policy explains how VividDock handles information when you use the application.
+
+**Contact:** vividcreations2024@gmail.com
+
+1. Overview
+
+VividDock is a floating dock and productivity utility application.
+
+VividDock does not require you to create an account and does not provide a VividDock cloud account or cloud synchronization service.
+
+Where practical, information created by you is stored locally on your device.
+
+VividDock may use third-party services, including Google AdMob and Google User Messaging Platform (UMP), which may process certain information according to their own privacy policies and applicable requirements.
+
+2. Information Stored Locally
+
+VividDock can store application data locally on your device, including:
+
+- App settings and preferences
+- Dock configuration
+- Notes
+- Tasks and checklists
+- Speed Dial entries
+- Clipboard history, if you enable the clipboard feature
+- Other information required for the application's features
+
+This information is stored within the application's local storage and is not uploaded to a VividDock server.
+
+3. Clipboard Data
+
+If you enable clipboard history, VividDock may access clipboard content so that previously copied items can be displayed in the clipboard history feature.
+
+Clipboard history:
+
+- Is stored locally on your device.
+- Is not uploaded to VividDock servers.
+- Is not intentionally used for advertising or advertising profiling.
+- Can be deleted through the application.
+- Is automatically removed when the relevant local application data is cleared or the application is uninstalled.
+
+Clipboard text payloads stored by VividDock are encrypted using AES-256-GCM with keys managed through the Android KeyStore.
+
+Other application data stored in the local database is not represented as being fully database-encrypted.
+
+4. Location Information
+
+VividDock may request location permission when you use the weather feature.
+
+Location information is used to determine weather information for your current location through the Open-Meteo weather service.
+
+VividDock:
+
+- Does not continuously track your location in the background for the weather feature.
+- Does not maintain a location history or location trail.
+- Does not use location for advertising profiling.
+
+The weather feature uses Android's location services and may obtain location information from available device location providers.
+
+Weather requests are made to the Open-Meteo service. VividDock does not require an API key or user account for these requests.
+
+5. Camera and QR/Barcode Scanning
+
+VividDock may use the device camera for QR code and barcode scanning.
+
+Camera frames are processed on the device using Android CameraX and Google ML Kit.
+
+VividDock does not intentionally upload or permanently store camera images or video for advertising, profiling, or unrelated purposes.
+
+VividDock may also use the camera hardware's torch/flashlight functionality when you request it.
+
+6. Screen Capture
+
+Certain VividDock features, such as the screen color picker and screenshot functionality, may use Android's MediaProjection screen-capture framework.
+
+Screen capture is initiated only after the user requests the relevant feature and grants the Android system's screen-capture permission.
+
+VividDock does not use MediaProjection for continuous background screen monitoring.
+
+Captured screen information is used for the requested feature and is not intentionally collected for advertising or user profiling.
+
+Screen capture functionality is separate from VividDock's AccessibilityService functionality.
+
+7. AccessibilityService
+
+VividDock provides optional Android AccessibilityService functionality for specific utility features.
+
+After you request to enable the feature, VividDock displays an in-app disclosure explaining why Accessibility access is required. You must affirmatively continue to Android Settings before the service can be enabled.
+
+The AccessibilityService is used for features such as:
+
+- Global navigation shortcuts.
+- Detecting the current foreground application for per-app dock auto-hide behavior.
+
+VividDock's AccessibilityService is configured without access to window content.
+
+VividDock does not intentionally use AccessibilityService to:
+
+- Read passwords.
+- Read keystrokes.
+- Read credit-card information.
+- Read private messages.
+- Read email contents.
+- Capture screen text or view hierarchies.
+- Collect unrelated personal information.
+
+Accessibility access is optional and can be disabled through Android system settings.
+
+8. Phone Calls and Speed Dial
+
+If you use the Speed Dial calling feature, VividDock may request the Android `CALL_PHONE` permission.
+
+The permission is requested when you explicitly initiate a call from a Speed Dial entry.
+
+If the permission is not granted, VividDock can fall back to opening the Android dialer so that you can place the call yourself.
+
+Speed Dial names and phone numbers are stored locally on your device.
+
+VividDock does not record phone calls or collect call audio.
+
+9. Media Controls
+
+VividDock may use Android media-session functionality to provide media playback controls.
+
+This allows VividDock to interact with active media sessions for functions such as:
+
+- Play/pause
+- Previous/next track
+- Other supported media controls
+
+VividDock's media functionality is not designed to collect or inspect the contents of private messages, emails, or unrelated notifications.
+
+10. Advertising
+
+VividDock may display advertisements using **Google AdMob**.
+
+Google and its advertising partners may process information such as:
+
+- Device identifiers
+- IP address
+- Device and operating-system information
+- Approximate location
+- Advertising interactions
+- Diagnostics and related technical information
+
+The exact information processed can depend on your device, region, consent choices, and applicable advertising configuration.
+
+VividDock does not sell your personal information.
+
+11. Consent and Privacy Choices
+
+VividDock uses Google's **User Messaging Platform (UMP)** to manage applicable consent requirements for advertising.
+
+Depending on your location and applicable regulations, you may be presented with choices regarding personalized advertising and related data processing.
+
+Where supported, privacy choices can be reviewed or changed through the privacy options provided by VividDock.
+
+Your available choices may vary depending on your location and applicable laws.
+
+12. Data Sharing
+
+VividDock does not sell your personal information.
+
+VividDock does not operate its own cloud database for storing your VividDock notes, tasks, clipboard history, Speed Dial entries, or dock configuration.
+
+Certain third-party services may process information when their functionality is used, including:
+
+- **Google AdMob** — advertising and related diagnostics.
+- **Google UMP** — consent management.
+- **Open-Meteo** — weather information requests when the weather feature is used.
+- **Google ML Kit** — on-device barcode and QR-code processing.
+
+These services operate under their respective terms and privacy policies.
+
+13. Data Security
+
+VividDock takes reasonable measures to protect locally stored application information.
+
+Clipboard text payloads stored by VividDock are encrypted using AES-256-GCM with encryption keys protected by the Android KeyStore.
+
+VividDock does not claim that all application data or the entire local Room database is encrypted.
+
+No method of electronic storage or transmission can be guaranteed to be completely secure.
+
+14. Data Retention and Deletion
+
+Locally stored VividDock information generally remains on your device until you:
+
+- Delete it through the application where a deletion option is provided.
+- Clear VividDock's application data.
+- Uninstall VividDock.
+
+VividDock does not maintain a separate VividDock cloud account containing this local application data.
+
+Third-party services may retain information according to their own policies and applicable requirements.
+
+15. Children's Privacy
+
+VividDock is not directed specifically toward children.
+
+We do not knowingly collect personal information from children through a VividDock account or VividDock-operated server.
+
+16. Changes to This Privacy Policy
+
+This Privacy Policy may be updated when VividDock's features, data practices, third-party services, or applicable legal requirements change.
+
+The **Last Updated** date at the top of this policy indicates when it was most recently revised.
+
+17. Contact
+
+If you have questions about this Privacy Policy or VividDock's privacy practices, contact:
+
+**Vivid Creations Technologies**  
+**Email:** vividcreations2024@gmail.com
+
+---
+
+**VividDock**  
+Developed by **Vivid Creations Technologies**
